@@ -46,7 +46,16 @@ The model was evaluated on a hold-out validation set (20% of the training data) 
 •	SMAPE Score: 53.86%
 •	Other Metrics: The model's objective was optimized for Mean Absolute Error (MAE) (regression_l1) during the training phase.
 
-## 5. Conclusion
+## 5. Tech Stack
+
+* **Core Language:** **Python 3.8+**
+* **Data Manipulation:** **Pandas**, **NumPy**
+* **Machine Learning:** **Scikit-learn** (for TF-IDF), **LightGBM** (for the core regression model)
+* **Deep Learning:** **PyTorch** & **Torchvision** (for extracting image embeddings with EfficientNetB0)
+* **Image Processing:** **Pillow**
+* **Development:** **Jupyter Notebook**
+
+## 6. Conclusion
 Our solution successfully demonstrates that a hybrid approach, combining features from text, images, and domain-specific engineering, provides a robust foundation for product price prediction. The LightGBM model proved highly effective at learning from the combined high-dimensional feature set, establishing a solid performance baseline. Key lessons include the significant impact of targeted feature engineering (IPQ) and the efficiency of using pre-trained deep learning models for feature extraction.
 
 Appendix A. Code artefacts
