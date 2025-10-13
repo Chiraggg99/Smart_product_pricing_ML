@@ -53,7 +53,7 @@ A. Code artefacts
 
 •	Link: https://github.com/Rit222518/Smart-product-pricing
 
-## License
+## 6.License
 This project is licensed under the MIT License – see the [LICENSE](LICENSE.txt) file for details.
 
 
