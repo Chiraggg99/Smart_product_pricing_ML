@@ -1,5 +1,5 @@
-# Smart-product-pricing
-An end-to-end ML solution that predicts product prices using catalog text and product images. Includes data preprocessing, feature engineering, model training                                                                                                                                                                 
+# Smart_product_pricing using ML
+An end-to-end machine learning solution that accurately predicts product prices by analyzing both catalog text and product images. This project demonstrates a complete pipeline, fusing insights from natural language processing (NLP) and computer vision. It covers all stages, from data preprocessing and feature engineering to training a final predictive model.                                                                                                                                                                 
 ## 1. Executive Summary
 Our solution predicts product prices by creating a robust, multimodal feature set from text, image, and engineered data. We combine TF-IDF vectorized text, EfficientNetB0 image embeddings, and an extracted Item Pack Quantity (IPQ) feature to train a highly efficient LightGBM Regressor, achieving a validated SMAPE score of 53.86%.
 
@@ -62,7 +62,7 @@ Appendix A. Code artefacts
 
 •	Link: https://github.com/Rit222518/Smart-product-pricing
 
-## 6. License
+## 7. License
 This project is licensed under the MIT License – see the [LICENSE](LICENSE.txt) file for details.
 
 
