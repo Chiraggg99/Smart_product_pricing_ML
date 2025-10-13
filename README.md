@@ -48,12 +48,10 @@ The model was evaluated on a hold-out validation set (20% of the training data) 
 
 ## 5. Conclusion
 Our solution successfully demonstrates that a hybrid approach, combining features from text, images, and domain-specific engineering, provides a robust foundation for product price prediction. The LightGBM model proved highly effective at learning from the combined high-dimensional feature set, establishing a solid performance baseline. Key lessons include the significant impact of targeted feature engineering (IPQ) and the efficiency of using pre-trained deep learning models for feature extraction.
-Appendix
-A. Code artefacts
-
+Appendix A. Code artefacts
 •	Link: https://github.com/Rit222518/Smart-product-pricing
 
-## 6.License
+## 6. License
 This project is licensed under the MIT License – see the [LICENSE](LICENSE.txt) file for details.
 
 
